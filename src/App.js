@@ -11,12 +11,15 @@ import {
 function App() {
   return (
     
-     
-        <Routes>
+     <>
+     <h3>heloooo</h3>
+     <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
           {/* <Route path='/contact' element={<Contact />} /> */}
         </Routes>
+     </>
+        
      
 
   );
