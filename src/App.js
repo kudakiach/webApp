@@ -6,7 +6,7 @@ import {
   Routes,
   Route,
   Switch,
-  BrowserRouter as Router,
+  HashRouter as Router,
 } from "react-router-dom";
 function App() {
   return (
